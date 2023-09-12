@@ -2,3 +2,4 @@ Django==4.2.5  # La versión de Django que deseas utilizar
 opencv-python==4.8.0.76  # Para el procesamiento de imágenes y el reconocimiento facial
 numpy==1.25  # Para manipulación de matrices (utilizado por OpenCV)
 Pillow==9.3  # Para el manejo de imágenes
+psycopg2-binary

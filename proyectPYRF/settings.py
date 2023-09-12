@@ -75,8 +75,13 @@ WSGI_APPLICATION = 'proyectPYRF.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'nombre_de_la_basededatos',
+        'USER': 'nombre_de_usuario',
+        'PASSWORD': 'tu_contraseña',
+        'HOST': 'localhost',  # O la dirección de tu servidor de base de datos
+        # Deja en blanco para el valor predeterminado (generalmente 5432)
+        'PORT': '',
     }
 }
 
